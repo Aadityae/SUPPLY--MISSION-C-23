@@ -77,13 +77,13 @@ function draw() {
 
   if(keyCode === RIGHT_ARROW)
   {
-	helicopterSprite.velocityX=3
+	helicopterSprite.x+1;
 
   }
 
   if(keyCode === LEFT_ARROW)
   {
-	helicopterSprite.velocityX=-3
+	helicopterSprite.x+(-1);
 
   }
 
