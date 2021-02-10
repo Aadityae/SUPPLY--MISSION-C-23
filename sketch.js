@@ -77,13 +77,13 @@ function draw() {
 
   if(keyCode === RIGHT_ARROW)
   {
-	helicopterSprite.x+1;
+	helicopterSprite.x = helicopterSprite.x+1;
 
   }
 
   if(keyCode === LEFT_ARROW)
   {
-	helicopterSprite.x+(-1);
+	helicopterSprite.x = helicopterSprite.x+(-1);
 
   }
 
